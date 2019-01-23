@@ -45,8 +45,8 @@ dependencies {
 
 publish {
     userOrg = 'yanchengdeng'
-    groupId = 'com.yc'
-    artifactId = 'circleview'
+    groupId = 'api.yc.com.jcenter'
+    artifactId = 'TestCircleView'
     publishVersion = '0.1'
     desc = 'Oh hi, this is a nice description for a project, right?'
     website = 'https://github.com/yanchengdeng/jcenterLoad.git'
