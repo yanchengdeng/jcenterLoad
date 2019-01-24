@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
 apply plugin: 'com.novoda.bintray-release'
 
 android {
@@ -49,8 +48,9 @@ dependencies {
 publish {
     userOrg = 'yanchengdeng'
     groupId = 'api.yc.com.jcenter'
-    artifactId = 'TestCircleView'
+    artifactId = 'jcenterLoad'
     publishVersion = '0.1'
     desc = 'Oh hi, this is a nice description for a project, right?'
-    website = 'https://github.com/yanchengdeng/jcenterLoad.git'
+    website = 'https://github.com/yanchengdeng/jcenterLoad'
+    licences = ['Apache-2.0']
 }
